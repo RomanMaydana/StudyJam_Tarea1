@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#004169">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/portada_1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|top">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INICIAR SESIÓN"
+            android:textSize="25sp"
+            android:textColor="#f0f8fa"
+            />
+
+        <EditText
+            android:layout_marginTop="25dp"
+
+            android:paddingLeft="15dp"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:background="#3578a2"
+            android:hint="USUARIO"
+            android:textStyle="bold"
+            android:textColorHint="#7b7677"
+            android:drawableRight="@drawable/ic_person_black_24dp"
+
+            />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:background="#3578a2"
+            android:hint="CONTRASEÑA"
+            android:textStyle="bold"
+            android:textColorHint="#7b7677"
+            android:drawableRight="@drawable/ic_lock_black_24dp"
+
+            />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#3578a2"
+            android:drawableLeft="@drawable/ic_check_black_24dp"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="RECORDAR USUARIO"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="#5a8143"
+            android:text="Entrar"
+            android:textColor="#b0abac"
+            />
+    </LinearLayout>
+        <ImageButton
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home_black_24dp"
+            android:background="#004169"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INICIO"
+            android:textStyle="bold"
+            android:textColor="#3578a2"
+            />
+    </LinearLayout>
+</LinearLayout>
